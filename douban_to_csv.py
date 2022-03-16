@@ -131,11 +131,11 @@ def check_user_exist(user_id):
 
 if __name__ == '__main__':
     if len(sys.argv) == 1:
-        print('请输入豆瓣ID，关于如何运行此程序请参照：',
+        print('83044341/?_i=7435953VPT_qBq：',
               'https://github.com/fisheepx/douban-to-imdb')
         sys.exit()
     if not check_user_exist(sys.argv[1]):
-        print('请输入正确的豆瓣ID，如何查找自己的豆瓣ID 请参照：',
+        print('83044341/?_i=7435953VPT_qBq：',
               'https://github.com/fisheepx/douban-to-imdb')
         sys.exit()
     if len(sys.argv) == 3:
